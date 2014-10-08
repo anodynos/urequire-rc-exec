@@ -1,0 +1,40 @@
+{
+  "name": "urequire-rc-exec",
+  "description": "uRequire ResourceConverter that executes a `child_process.exec` CLI command against each matched FileResource, returning stdout.",
+  "version": "0.1.0",
+  "homepage": "http://uRequire.org",
+  "author": {
+    "name": "Agelos Pikoulas",
+    "email": "agelos.pikoulas@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "keywords": [
+    "urequire",
+    "less",
+    "css",
+    "resource",
+    "converter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anodynos/urequire-rc-exec"
+  },
+  "bugs": {
+    "url": "http://github.com/anodynos/urequire-rc-exec/issues",
+    "email": "agelos.pikoulas@gmail.com"
+  },
+  "main": "./source/code/urequire-rc-exec.coffee",
+  "preferGlobal": false,
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "lodash": "*",
+    "when": "*"
+  }
+}
