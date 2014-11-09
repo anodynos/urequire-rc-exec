@@ -13,7 +13,7 @@ module.exports = [
   (f)-> # run asynchronously, returning an A+ promise
     command =
       if _.isString @cmd
-        "#{@cmd} '#{f.srcFilename}'"
+        "#{@cmd} #{f.srcFilename}"
       else
         if _.isFunction @cmd
           @cmd f.srcFilename, f
