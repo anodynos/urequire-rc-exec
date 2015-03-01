@@ -1,7 +1,7 @@
 {
   "name": "urequire-rc-exec",
   "description": "uRequire RC that executes a `child_process.exec` CLI command against each matched FileResource, returning stdout.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "http://uRequire.org",
   "author": {
     "name": "Agelos Pikoulas",
@@ -34,7 +34,7 @@
     "node": "0.10.x"
   },
   "peerDependencies": {
-    "urequire": "~0.7.0"
+    "urequire": "~0.7.0-beta.14"
   },  
   "dependencies": {
     "lodash": "*",
